@@ -21,9 +21,9 @@ int main(){
 
 	for (size_t i=0; i!=len(trees); i+=1){
 		max_up[i]    = trees[i];
-      max_down[i]  = trees[i];
-      max_left[i]  = trees[i];
-      max_right[i] = trees[i];
+		max_down[i]  = trees[i];
+		max_left[i]  = trees[i];
+		max_right[i] = trees[i];
 	}
 	
 	size_t ans1 = 2*nrows + 2*ncols - 4;

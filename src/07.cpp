@@ -10,7 +10,7 @@ MallocAllocator al;
 
 int main(){
 	Array<char> text = read_text(stdin, al);
-	push_range(text, slice("\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"), al);
+	push_range(text, slice("\0\n\0\n\0\n\0\n\0\n\0\n\0"), al);
 
 
 	size_t treshold = 100000;
